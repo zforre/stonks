@@ -9,12 +9,9 @@ p {
 }
 button {
 
-  position: absolute;
+
   cursor: pointer;
-  /* position: absolute;
->>>>>>> adjusted styles
-  left: 800px;
-  top: 100px; */
+
   border-radius: 50%;
   width: 300px;
   height: 300px;

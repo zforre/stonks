@@ -11,3 +11,4 @@ $button.addEventListener('click', function() {
   window.alert(message[a]);
   $button.textContent = (buttonMessage[b]);
 });
+console.log($button)

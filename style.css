@@ -9,10 +9,10 @@ p {
 button {
   position: absolute;
   left: 800px;
-  top: 50px;
-  padding: 200px 20px;
+  top: 100px;
   border-radius: 50%;
-  width: 24%;
+  width: 300px;
+  height: 300px;
   color: white;
   background-color: black;
   border: none;

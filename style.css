@@ -6,6 +6,18 @@ p {
   font-size: 40px;
   color: white;
 }
+img {
+  animation: hide 1s infinite ease;
+
+}
+@keyframes hide {
+0% {
+  opacity: 0;
+}
+50% {
+  opacity: 1;
+}
+}
 h1 {
   font-family: fantasy;
   font-size: 60px;
@@ -14,6 +26,11 @@ h1 {
 h2 {
   font-family: fantasy;
   font-size: 40px;
+  color: orange;
+}
+h3 {
+  font-family: fantasy;
+  font-size: 30px;
   color: orange;
 }
 @keyframes blinking-background {

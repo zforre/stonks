@@ -6,6 +6,27 @@ p {
   font-size: 40px;
   color: white;
 }
+button {
+  position: absolute;
+  left: 800px;
+  top: 50px;
+  padding:200px 20px;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+button:active {
+  outline: none;
+  background-color: grey;
+}
+button:hover {
+  color: red;
+}
+
 
 img {
   border: 10pt transparent solid;

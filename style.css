@@ -1,16 +1,20 @@
 body {
   animation: blinking-background 3s infinite;
 }
+
 p {
   font-family: 'Nanum Pen Script', cursive;
   font-size: 40px;
   color: white;
 }
 button {
+
   position: absolute;
   cursor: pointer;
+  /* position: absolute;
+>>>>>>> adjusted styles
   left: 800px;
-  top: 100px;
+  top: 100px; */
   border-radius: 50%;
   width: 300px;
   height: 300px;
@@ -67,6 +71,7 @@ h3 {
 body {
   background: rgb(131,58,180);
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  text-align: center;
 }
 
 div.song > p {

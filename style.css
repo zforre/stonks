@@ -12,7 +12,7 @@ img {
 }
 img:hover {
   border: solid 10pt;
-  border-image: conic-gradient(red, orange, yellow, green, blue, indigo, #CA3F46) 1;
+  border-image: conic-gradient(red, orange, yellow, green, blue, indigo, #CA3F46, red) 1;
 }
 
 h1 {

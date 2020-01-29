@@ -6,18 +6,15 @@ p {
   font-size: 40px;
   color: white;
 }
-img {
-  animation: hide 1s infinite ease;
 
+img {
+  border: 10pt transparent solid;
 }
-@keyframes hide {
-0% {
-  opacity: 0;
+img:hover {
+  border: solid 10pt;
+  border-image: conic-gradient(red, orange, yellow, green, blue, indigo, #CA3F46) 1;
 }
-50% {
-  opacity: 1;
-}
-}
+
 h1 {
   font-family: fantasy;
   font-size: 60px;

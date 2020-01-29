@@ -8,6 +8,7 @@ p {
 }
 button {
   position: absolute;
+  cursor: pointer;
   left: 800px;
   top: 100px;
   border-radius: 50%;
@@ -35,6 +36,7 @@ img {
 img:hover {
   border: solid 10pt;
   border-image: conic-gradient(red, orange, yellow, green, blue, indigo, violet, red) 1;
+  cursor: url("https://img.icons8.com/color/48/000000/trollface.png"), auto;
 }
 
 h1 {
